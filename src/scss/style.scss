@@ -1,1 +1,45 @@
-/************ INCLUDES ************/
+
+
+@import "global/reset";
+@import "global/variable";
+@import "global/typography.scss";
+
+
+body {
+  background-color: pink;
+
+  .header {
+    height: 10vh;
+
+    &__title {
+      font-size: 42px;
+      font-family: $cookieRegular;
+      text-align: center;
+    }
+  }
+
+  .container {
+    height: 50vh;
+    width: 100vw;
+    top: 0;
+  }
+
+  .pageTitle {
+    font-family: $merriweatherRegular;
+    font-size: 32px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $primaryColor;
+  }
+
+  .parallax {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/images/semaine\ C\ doraemon.jpg");
+    background-repeat: no-repeat;
+    background-size: 250%;
+    position: initial;
+  }
+}

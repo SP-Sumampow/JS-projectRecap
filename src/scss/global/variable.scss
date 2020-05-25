@@ -1,9 +1,14 @@
+/************ COLORS ************/
+
+
+$primaryColor: #9ab7d3;
+$secondarycolor: 	#f5d2d3;
+$tertiarycolor: #f7e1d3;
+
 /************ FONTS ************/
 
-@font-face {
-  font-family: "Merriweather";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/assets/fonts/Merriweather-Regular.ttf"),
-  url("/assets/fonts/Merriweather-Regular.ttf") format("truetype"),
-}
+$merriweatherRegular : "Merriweather-regular";
+$cookieRegular : "Cookie-Regular";
+
+
+
