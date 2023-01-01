@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/SP-Sumampow/JS-projectRecap#readme",
   "devDependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.2"
   }
 }
